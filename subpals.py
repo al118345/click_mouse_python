@@ -1,7 +1,7 @@
 from pynput.mouse import Button, Controller
 import time
 mouse = Controller()
-
+#EL OTRO ES SUBPALS
 # Obtiene la posición actual
 print('The current pointer position is {0}'.format(
     mouse.position))
@@ -9,8 +9,9 @@ print('The current pointer position is {0}'.format(
 while True:
     time.sleep(5)
 
-    #presiona el boton de mostrar video
-    mouse.position = ( 532.49609375, 688.70703125)
+    #presiona el boton de mostrar video Now we have moved it to (502.79296875, 734.0625)
+
+    mouse.position = ( 510.40625, 735.1796875)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -29,7 +30,7 @@ while True:
     time.sleep(2)
 
     # presiona el botón de subscribirse
-    mouse.position = (865.8046875, 823.33203125)
+    mouse.position = (918.9453125, 830.796875)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -49,7 +50,7 @@ while True:
 
 
     # confirmo la subcripción
-    mouse.position = (492.33984375, 750.921875)
+    mouse.position = (504.953125, 805.1015625)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
