@@ -9,11 +9,11 @@ print('The current pointer position is {0}'.format(
     mouse.position))
 
 while True:
-    time.sleep(5)
-    # mouse.position = ( 86, 45)
-    # mouse.press(Button.left)
-    # mouse.release(Button.left)
-    # time.sleep(7)
+    #time.sleep(5)
+    #mouse.position = ( 86, 45)
+    #mouse.press(Button.left)
+    #mouse.release(Button.left)
+    time.sleep(7)
 
     # presiona el boton de mostrar video Now we have moved it to (502.79296875, 734.0625)
 

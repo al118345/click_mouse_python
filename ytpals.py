@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from pynput.mouse import Button, Controller
 import time
 mouse = Controller()
@@ -8,9 +10,16 @@ print('The current pointer position is {0}'.format(
 
 while True:
     time.sleep(5)
+    # mouse.position = ( 86, 45)
+    # mouse.press(Button.left)
+    # mouse.release(Button.left)
+    # time.sleep(7)
 
-    #presiona el boton de mostrar video
-    mouse.position = ( 532.49609375, 688.70703125)
+    # presiona el boton de mostrar video Now we have moved it to (502.79296875, 734.0625)
+
+    #mouse.position = (760, 697)
+    mouse.position = (768, 670)
+
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -18,9 +27,8 @@ while True:
     mouse.release(Button.left)
     time.sleep(9)
 
-
-    #da a me gusta
-    mouse.position = (651.2890625, 773.90234375)
+    # da a me gusta
+    mouse.position = (135, 445)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -29,7 +37,7 @@ while True:
     time.sleep(2)
 
     # presiona el botón de subscribirse
-    mouse.position = (918.9453125, 830.796875)
+    mouse.position = (410, 546)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -37,9 +45,8 @@ while True:
     mouse.release(Button.left)
     time.sleep(2)
 
-
     # cambio de pestaña
-    mouse.position = (70.65625, 21.19140625)
+    mouse.position = (1353, 669)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
@@ -47,15 +54,12 @@ while True:
     mouse.release(Button.left)
     time.sleep(13)
 
-
     # confirmo la subcripción
-    mouse.position = (492.33984375, 750.921875)
+    mouse.position = (779, 725)
     print('Now we have moved it to {0}'.format(
         mouse.position))
     # Press and release
     mouse.press(Button.left)
     mouse.release(Button.left)
 
-    time.sleep(30)
-
-
+    time.sleep(40)
